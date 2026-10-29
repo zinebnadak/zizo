@@ -1,0 +1,17 @@
+[project]
+name = "zizo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zinebnadak", email = "zineb@nadak.ai" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+zizo = "zizo:main"
+
+[build-system]
+requires = ["uv_build>=0.11.19,<0.12.0"]
+build-backend = "uv_build"

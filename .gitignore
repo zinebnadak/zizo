@@ -1,0 +1,12 @@
+# Python cache files 
+__pycache__/
+*.pyc
+
+# Virtual environment ,using uv (rebuilt from pyproject.toml)
+.venv/
+
+# Secrets
+.env
+
+# Mac system junk
+.DS_Store

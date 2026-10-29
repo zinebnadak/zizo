@@ -37,6 +37,43 @@ Very doable, using either a git push tool or the GitHub MCP server. The safe pat
 
 This keeps it fast and I´ll still be in charge.
 
+## OpenClaw/Clawdbot vs own build 
+
+### OpenClaw/Clawdbot
+
+- Pros
+Works today: phone chat, memory, skills, and many integrations already built.
+Large community and ecosystem.
+Saves you weeks or months of building.
+
+- Cons
+You learn to configure an agent, not to build one.
+A weak portfolio signal, since many people run it.
+A large codebase you don’t fully understand, so it’s hard to trust and fix.
+A real security history: many CVEs and malicious community plugins.
+It’s general-purpose, while you want something shaped around how you work.
+Building your own
+
+### Own build 
+
+- Pros
+You deeply understand every agent concept, which is exactly the AI-engineer skill set.
+A strong, unique portfolio piece you can explain line by line in interviews.
+Small, so you control and trust it, with security designed in from the start.
+Shaped exactly around your workflow.
+
+- Cons
+Slower to become useful at first.
+You’ll reinvent things that already exist.
+Phone access and many integrations come much later.
+
+
+### Building a hybrid (claudes answer)
+Build the core yourself: the agent loop, tools, memory, resume/wrap/review/learn. That’s the learning and the portfolio. The core loop is small, so it isn’t a huge cost.
+Use existing tools for daily productivity right now. Keep using Claude Code (or OpenClaw in a sandboxed account) while zizo grows. “From scratch” shouldn’t stop you from being productive today.
+“From scratch” doesn’t mean no libraries. Use the Anthropic SDK, the Ollama client and the official MCP Python SDK. Build the architecture, not the plumbing.
+Long term, zizo’s real value is its brain: your memory, conventions and modes. In v0.2, expose it as an MCP server, and it can plug into any agent, including Claude Code or OpenClaw. You aren’t competing with them; you’re building the personal layer they all lack.
+
 
 ## Interestingg Sources 
 - https://bibek-poudel.medium.com/how-openclaw-works-understanding-ai-agents-through-a-real-architecture-5d59cc7a4764

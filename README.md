@@ -36,3 +36,10 @@ Very doable, using either a git push tool or the GitHub MCP server. The safe pat
 - Give it a GitHub token limited to the repos I choose. Never give it main account password.
 
 This keeps it fast and I´ll still be in charge.
+
+
+## Interestingg Sources 
+- https://bibek-poudel.medium.com/how-openclaw-works-understanding-ai-agents-through-a-real-architecture-5d59cc7a4764
+- https://kanerika.com/blogs/openclaw-architecture/
+- https://futureagi.com/blog/llm-agent-architectures-core-components/
+- https://pub.towardsai.net/mcp-vs-agent-skills-what-the-2026-spec-change-finally-settled-for-me-9972d7456fba

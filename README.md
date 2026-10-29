@@ -80,3 +80,6 @@ Long term, zizo’s real value is its brain: your memory, conventions and modes.
 - https://kanerika.com/blogs/openclaw-architecture/
 - https://futureagi.com/blog/llm-agent-architectures-core-components/
 - https://pub.towardsai.net/mcp-vs-agent-skills-what-the-2026-spec-change-finally-settled-for-me-9972d7456fba
+
+## IMAGES
+![pic1](images/pic1.png)

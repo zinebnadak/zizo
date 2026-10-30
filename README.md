@@ -83,6 +83,13 @@ Long term, zizo’s real value is its brain: your memory, conventions and modes.
 
 ## IMAGES
 ![pic1](images/pic1.png)
-
 pyproject.toml says which Python function the command "uv run zizo" runs
 ![pic2](images/pic2.png)
+
+## BUILD NOTES
+Inside pyproject.toml, under [project.scripts]:
+Read it as: 
+zizo = "zizo : main"
+command  package  function
+
+

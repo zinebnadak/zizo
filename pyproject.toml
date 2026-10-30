@@ -1,7 +1,7 @@
 [project]
 name = "zizo"
 version = "0.1.0"
-description = "Add your description here"
+description = "My absolute personal assistant"
 readme = "README.md"
 authors = [
     { name = "zinebnadak", email = "zineb@nadak.ai" }

@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from zizo!")
+    print("zizo is awake")

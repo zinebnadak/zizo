@@ -82,9 +82,14 @@ Long term, zizo’s real value is its brain: your memory, conventions and modes.
 - https://pub.towardsai.net/mcp-vs-agent-skills-what-the-2026-spec-change-finally-settled-for-me-9972d7456fba
 
 ## IMAGES
+### pyproject.toml says which Python function the command 
 ![pic1](images/pic1.png)
-pyproject.toml says which Python function the command "uv run zizo" runs
+
+### "uv run zizo" runs
 ![pic2](images/pic2.png)
+
+### creating subcomands 
+![pic3](images/pic3.png)
 
 ## BUILD NOTES
 Inside pyproject.toml, under [project.scripts]:

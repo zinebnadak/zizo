@@ -4,6 +4,7 @@ Personal assistant setup.
 
 # NOTES
 
+
 ## 5 core pieces of every agent (the roots)
 - Model (the brain) decides what to do next.
 - Agent loop: think → call a tool → see the result → repeat until done. The loop stops when it reaches a final result, an error, a cancellation or a timeout. This loop is the heart of every agent (only about 50 lines of code)
